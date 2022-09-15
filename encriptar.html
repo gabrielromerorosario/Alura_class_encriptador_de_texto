@@ -4,57 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de git</title>
+    <title>Encriptar</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
-
-        <section>
-
-            <h1 class="Logo_h1"><img src="img/Logo.png" alt="Logo Alora" class="logo"></h1>
-
+    <section >
+        <header>
+            <img src="img/Logo.png" alt="Logo Alora" class="logo">
             
-            <div class="FRAME_5">               
-                <p class="ningun">Ningun texto fue encontrado</p>
-                <p class="ingrese">Ingresa el texto que desees codificar o decodigicar</p>
-            </div>
+        </header>
 
-            <img src="img/Muñeco.png" alt="Mu;eco" class="muneco">
+        <div class="texto">
+
+
+            <textarea id="areaText" class="text_encriptar" cols="60" rows="6" placeholder="Ingrese su texto " autofocus=""></textarea>
+
+            <div class="botonera">                    
+                <button class="boton_encriptar" id="boton_encriptar_id" value="Encriptar" onclick="Encriptar()"><p class="text_btn1">Encriptar</p></button>
+                <button class="boton_desencriptar" id="boton_desencriptar_id" value="Desencriptar" onclick="Desencriptar()" ><p class="text_btn2">Desencriptar</p></button>
+            </div>
+        
 
             <div class="solo_minu">
                 <p class="solo_minucula"> Solo letras minuscula y sin acentos</p>
             </div>
+        </div>
 
-            <div class="botonera">                    
-                <button class="boton_encriptar" id="boton_encriptar_id"><p class="text_btn1">Encriptar</p></button>
-                <button class="boton_desencriptar" id="boton_desencriptar_id"><p class="text_btn2">Desencriptar</p></button>
+    </section>
+
+     <section class="Salida">
+
+        <textare class="men_salida" id="msj_final"></textare>
+
+        <div class="retangulo" id="retangulo">
+        
+            <img src="img/Muñeco.png" alt="Mu;eco" class="muneco">
+    
+            <div class="FRAME_5">               
+                <p class="ningun">Ningun texto fue encontrado</p>
+                <p class="ingrese">Ingresa el texto que desees codificar o decodificar</p>
+                <textarea id="mensajefinal" class="mensaje" cols="18" rows="8"></textarea>
+                <button   class="buttonCopiar"   onclick="copiar()" /><p>Copiar</p></button>
             </div>
 
-            <input type="text" name="text_encriptar_nm" id="text_encriptar_id" class="text_encriptar">
-
-            <textarea name="text_salida" id="text_salida" cols="30" rows="10" class="text_salida"></textarea>    
-        </section>
-
-        <section class="rectangulo">
-
             
-
-        </section>
-
                 
-       
+        </div>
+    
+     </section>   
         
 
-    </main>
+    
 
-    <footer>
-        Gabriel Romero Desarrrollador 2022 Republica Dominicana
-    </footer>
+    <script>
+        document.getElementById("Encriptar").onclick = Encriptar;
+        document.getElementById("Desencriptar").onclick = Desencriptar;
+        document.getElementById("Copiar").onclick = Copiar;
+    </script>
+
+    <footer class="footer">  <p class="p-footer">Copyright &copy; 2022 Gabriel , todos los derechos reservados.</p> </footer>
     
 </body>
 </html>
