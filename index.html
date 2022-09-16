@@ -1,43 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>Desafío 1 - Encriptador</title>
-		<script src="js.js"></script>
-        <link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body id="cuerpo">  
-		<section class="areaIngresoTexto">
-			<header>
-				<img src="img/Logo.png" alt="Letra A de Alura">
-			</header>
-			<div class="texto">
-				<textarea id="areaText" type="text" placeholder="Ingrese el texto aquí" autofocus=""></textarea>
-				<p>
-					Solo letras minúsculas y sin acentos
-				</p>
-				<div class="buttonsPrincipales">
-					<input id="Encriptar" class="botonCodificar" type="button" value="Encriptar">
-					<input id="Desencriptar" class="botonDecodificar" type="button" value="Desencriptar">
-				</div>
-			</div>
-		</section>
-		<section class="SalidaTexto">
-			<textarea id="mensajeFinal" class="mensajeFinal"></textarea>
-			<div id="diamante">
-				<img src="img/Muñeco.png" alt="Persona buscando un diamante"/>
-				<h1>Ningún mensaje fue encontrado</h1>
-				<p>
-					Ingresa el texto que desees codificar o decodificar
-				</p>
-			</div>
-			<input id="Copiar" class="buttonCopiar" type="button" value="Copiar" />
-		</section>
-		<script>
-			document.getElementById("Encriptar").onclick = Encriptar;
-			document.getElementById("Desencriptar").onclick = Desencriptar;
-			document.getElementById("Copiar").onclick = Copiar;
-		</script>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <section >
+        <header>
+            <img src="img/Logo.png" alt="Logo Alora" class="logo">
+
+            <h1 class="Titulo1">Encritaptador de Feases</h1>
+            
+        </header>
+
+        <div class="texto">
+
+
+            <textarea id="areaText" class="text_encriptar" cols="100" rows="60" placeholder="Ingrese su texto " autofocus=""></textarea>
+
+            <div class="solo_minu">
+                <p class="solo_minucula"> Solo letras minuscula y sin acentos</p>
+            </div>
+
+            <div class="botonera">                    
+                <button class="boton_encriptar"    id="boton_encriptar_id"      ><p class="text_btn1">Encriptar</p></button>
+                <button class="boton_desencriptar" id="btn_desencriptar_id"   ><p class="text_btn2">Desencriptar</p></button>
+            </div>
+        
+
+            
+        </div>
+
+    </section>
+
+     <section class="Salida">
+
+        
+
+        <div class="retangulo" id="retangulo">
+        
+           
+    
+            <section class="FRAME_5">    
+
+                <img src="img/Muñeco.png" id="muneco" alt="Mu;eco" class="muneco">          
+                <p class="ningun">Ningun texto fue encontrado</p>
+                <p class="ingrese">Ingresa el texto que desees codificar o decodificar</p>
+                
+                
+            </section>
+
+            <section class="mensaje_final">
+                
+                <textarea id="mensajefinal" class="mensajefinal" cols="50" rows="40"  ></textarea>
+                
+            </section>
+
+            <button   class="buttonCopiar"  id="copiar" /><p>Copiar</p></button>
+
+            
+
+            
+                
+        </div>
+    
+     </section>   
+    
+    <footer class="footer">  <p class="p-footer">Copyright &copy; 2022 Gabriel , todos los derechos reservados.</p> </footer>
+
+    <script src="encritar.js"></script>
+        
+    
+</body>
 </html>
