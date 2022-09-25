@@ -1,16 +1,11 @@
-body{
-    
+body {
     width: 1440px;
     height: 650px;
     padding: 0px;
-    
     background: #F3F5FC;
-
-    
-
 }
-.logo{
 
+.logo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -21,12 +16,9 @@ body{
     height: 48px;
     left: 40px;
     top: 40px;
-
-   
 }
 
-.Titulo1{
-
+.Titulo1 {
     position: absolute;
     width: 336px;
     height: 58px;
@@ -44,32 +36,27 @@ body{
     flex-grow: 0;
 }
 
-.text_encriptar{
+.text_encriptar {
     position: absolute;
     width: 700px;
     height: 90px;
     left: 240px;
     top: 280px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    
     resize: none;
-   
-
     color: #0A3871;
 }
 
-.solo_minu{
+.solo_minu {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 8px;
-
     position: relative;
     width: 229px;
     height: 18px;
@@ -77,11 +64,10 @@ body{
     top: 851px;
 }
 
-.solo_minucula{
+.solo_minucula {
     position: relative;
     width: 250px;
     height: 18px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -94,73 +80,58 @@ body{
     flex-grow: 0;
 }
 
-.botonera{
-
+.botonera {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-
     position: absolute;
     width: 680px;
     height: 67px;
     left: 240px;
     top: 885px;
-
 }
 
-.boton_encriptar{
+.boton_encriptar {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-    
     width: 328px;
     height: 67px;
     background: #0A3871;
     border-radius: 24px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-.text_btn1{
+.text_btn1 {
     width: 280px;
     height: 19px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    
-  
-    
     color: #FFFFFF;
-    
-    
-    
-    
     flex: none;
     order: 0;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
-.boton_desencriptar{
+.boton_desencriptar {
     position: relative;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-
     width: 328px;
     height: 67px;
     background: #D8DFE8;
@@ -170,11 +141,10 @@ body{
     order: 1;
     flex-grow: 0;
 }
-.text_btn2{
 
+.text_btn2 {
     width: 280px;
     height: 19px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -187,24 +157,18 @@ body{
     flex-grow: 1;
 }
 
-.retangulo{
-    
+.retangulo {
     position: relative;
     width: 480px;
     height: 900px;
     left: 2100px;
     top: 40px;
-
     background: #FFFFFF;
     box-shadow: 20px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    
 }
 
-
-
-
-.FRAME_5{
+.FRAME_5 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -215,9 +179,9 @@ body{
     height: 122px;
     left: 10px;
     top: 619px;
-    
 }
-.muneco{
+
+.muneco {
     position: absolute;
     width: 336px;
     height: 304px;
@@ -225,38 +189,29 @@ body{
     bottom: 300px;
 }
 
-.ningun{
-
+.ningun {
     position: relative;
-    
     width: 336px;
     height: 58px;
     left: 50px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
- 
     text-align: center;
-
     color: #343A40;
-
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-
 }
 
-
-.ingrese{
+.ingrese {
     position: relative;
     width: 400px;
     height: 48px;
     left: 50px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -270,45 +225,33 @@ body{
     flex-grow: 0;
 }
 
-.mensaje_final{
-
+.mensaje_final {
     position: relative;
     width: 500px;
-    height:500px;
+    height: 500px;
     left: 30px;
     top: 1px;
-
-   
 }
 
-.mensajefinal{
+.mensajefinal {
     position: absolute;
     width: 400px;
     height: 700px;
+    columns: 50;
+    row-gap: 40;
     left: 1px;
     top: 60px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    
     resize: none;
-   
-
     color: #0A3871;
-    display: none;
+    border: none;
 }
 
-
-
-
-
-
-
-.buttonCopiar{
-    
+.buttonCopiar {
     position: absolute;
     width: 150px;
     height: 50px;
@@ -318,29 +261,17 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    visibility: hidden;
 }
 
-
-
-
-
-
-
-.footer{
+.footer {
     position: relative;
     width: 780px;
     height: 48px;
     left: 950px;
     margin-top: 400px;
-    
-    
-
-    
 }
 
-.p-footer
-{
+.p-footer {
     margin-top: 10px;
     padding: 10px;
     font-family: 'Inter';
@@ -350,4 +281,3 @@ body{
     line-height: 200%;
     text-align: center;
 }
-    
