@@ -24,11 +24,11 @@ function btn_Encriptar() {
 
 function encriptar(string) {
     let matrizCodigo = [
-        ["e", "enter"],
-        ["i", "imes"],
-        ["a", "ai"],
-        ["o", "ober"],
-        ["u", "ufat"]
+        ["e", "¤£¥%"],
+        ["i", "¢£œ#%$"],
+        ["a", "¥&%$#*"],
+        ["o", "§«*š%$¥"],
+        ["u", "¤«*#&%¼"]
     ]
     let stringEncriptado = string.toLowerCase();
 
@@ -62,11 +62,11 @@ function btn_desencriptar() {
 
 function desencriptar(string) {
     let matrizCodigo = [
-        ["enter", "e"],
-        ["imes", "i"],
-        ["ai", "a"],
-        ["ober", "o"],
-        ["ufat", "u"]
+        ["¤£¥%", "e"],
+        ["¢£œ#%$", "i"],
+        ["¥&%$#*", "a"],
+        ["§«*š%$¥", "o"],
+        ["¤«*#&%¼", "u"]
     ]
     let stringEncriptado = string.toLowerCase();
 
